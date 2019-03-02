@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="static/images/dripicon.png">
+    <!-- 引入JQuery -->
+    <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+    <!-- 引入amazeui.css -->
+    <link rel="stylesheet" href="http://cdn.amazeui.org/amazeui/2.7.2/css/amazeui.min.css">
+    <!-- 引入bootstrap.css和bootstrap.js -->
+    <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- 引入自定义css和js -->
+    <script src="static/js/my.js"></script>
+</head>
+<body>
+    <!-- 头部开始 -->
+    <div id="top" style="height: 60px;background:orange">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                </button>
+                    <!-- 网站logo -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="static/images/drip.png" width="70" height="70" style="margin-left: 0px;margin-top: -25px;" >
+                    </a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">水滴链</a></li>
+                    <li id="closeleft"><a href="javascript:;"><i class="glyphicon glyphicon-list"></i></a></li>
+                    <li><a href="#">页面 2</a></li>
+                    <li><a href="#">页面 3</a></li>
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Java<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">jmeter</a></li>
+                            <li><a href="#">EJB</a></li>
+                            <li><a href="#">Jasper Report</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">分离的链接</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#">另一个分离的链接</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class=" glyphicon glyphicon-user"></span>管理员<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#"><span class=" glyphicon glyphicon-user"></span>个人资料</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><span class=" glyphicon glyphicon-cog"></span>设置</a></li>
+                            <li class="divider"></li>
+                            <li><a href="#"><span class=" glyphicon glyphicon-off"></span>退出</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">登录</a></li>
+                    <li><a href="#">注册</a></li>
+                    <li id="view-fullscreen">
+                        <a href="javascript:;">
+                            <span class="am-icon-arrows-alt"></span>
+                            <span>开启全屏</span>
+                        </a>
+                    </li>
+                    <!-- <li id="cancel-fullscreen">
+                        <a href="javascript:;">
+                            <span class="am-icon-arrows-alt"></span>
+                            <span>退出全屏</span>
+                        </a>
+                    </li> -->
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- 头部结束 -->
+    <!-- 左菜单栏开始 -->
+    <div id="left" class="col-sm-2">
+        <ul class="list-group">
+            <a href="#" class="list-group-item"><span class=" glyphicon glyphicon-home">&nbsp;</span>首页</a>
+            <a href="javascript:;" class="list-group-item"><span class=" glyphicon glyphicon-dashboard">&nbsp;</span>监控中心</a>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-map-marker"></span>地图展示</a>
+                <a href="#" class="list-group-item list-group-item-info">&nbsp;&nbsp;&nbsp;&nbsp;<span class="glyphicon glyphicon-list"></span>列表展示</a>
+            </div>
+            <a href="javascript:;" class="list-group-item"><span class="glyphicon glyphicon-record">&nbsp;</span>数据分析</a>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-area-chart"></span>实时数据</a>
+                <a href="#" class="list-group-item list-group-item-info">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-line-chart"></span>数据预测</a>
+                <a href="#" class="list-group-item list-group-item-warning">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-pie-chart"></span>数据可视化</a>
+                <a href="#" class="list-group-item list-group-item-danger">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-clock-o"></span>历史记录</a>
+            </div>
+            <a href="javascript:;" class="list-group-item"><span class="am-icon-television">&nbsp;&nbsp;&nbsp;</span>设备管理</a>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-list"></span>设备列表</a>
+                <a href="#" class="list-group-item list-group-item-info">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-plus"></span>添加设备</a>
+                <a href="#" class="list-group-item list-group-item-warning">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-th"></span>设备分组</a>
+                <a href="#" class="list-group-item list-group-item-danger">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-refresh"></span>设备状态</a>
+            </div>
+            <a href="javascript:;" class="list-group-item"><span class="am-icon-bell">&nbsp;&nbsp;&nbsp;</span>超标预警</a>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-list"></span>警报列表</a>
+                <a href="#" class="list-group-item list-group-item-info">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-plus"></span>添加警报</a>
+                <a href="#" class="list-group-item list-group-item-warning">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-group"></span>报警联系人/组</a>
+                <a href="#" class="list-group-item list-group-item-danger">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-calendar"></span>报警记录</a>
+            </div>
+            <a href="javascript:;" class="list-group-item"><span class="am-icon-user">&nbsp;&nbsp;&nbsp;</span>用户中心</a>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-user-plus"></span>添加用户</a>
+                <a href="#" class="list-group-item list-group-item-info">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-wrench"></span>用户权限</a>
+                <a href="#" class="list-group-item list-group-item-warning">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-key"></span>用户密码</a>
+                <a href="#" class="list-group-item list-group-item-danger">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-lock"></span>设备加密</a>
+                <a href="#" class="list-group-item list-group-item-success">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-key"></span>通讯密码</a>
+                <a href="#" class="list-group-item list-group-item-info">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-user"></span>个人信息</a>
+                <a href="#" class="list-group-item list-group-item-warning">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-wechat"></span>微信绑定管理</a>
+            </div>
+            <a href="javascript:;" class="list-group-item"><span class="am-icon-ellipsis-h">&nbsp;&nbsp;&nbsp;</span>其他</a>
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-success">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-envelope"></span>留言反馈</a>
+                <a href="#" class="list-group-item list-group-item-info">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-table"></span>数据导出</a>
+                <a href="#" class="list-group-item list-group-item-warning">&nbsp;&nbsp;&nbsp;&nbsp;<span class="am-icon-print"></span>Web打印</a>
+            </div>
+            <a id="erweima" href="javascript:;" class="list-group-item" title="<h4 align='center'>扫二维码下载APP</h4>" data-container="body" data-toggle="popover" data-placement="right" data-content="<img src='static/images/erweima.jpg' width='200' height='200' />">
+                <span class="am-icon-mobile-phone am-icon-sm">&nbsp;&nbsp;&nbsp;</span>手机端
+            </a>
+            <a href="#" class="list-group-item"><span class="am-icon-sign-out">&nbsp;&nbsp;&nbsp;</span>注销</a>
+        </ul>
+<script>
+    $(function () { $("[data-toggle='popover']").popover({ html: true });});
+</script>
+
+    </div>
+    <!-- 左菜单栏结束 -->
+    <!-- 内容开始 -->
+    <div id="content" class="col-sm-10" style="background: orange;">
+        <div class="container">
+            <div class="jumbotron">
+                <h1>欢迎登陆页面！</h1>
+                <p>这是一个超大屏幕（Jumbotron）的实例。</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" role="button">
+                        学习更多</a>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>欢迎登陆页面！</h1>
+                <p>这是一个超大屏幕（Jumbotron）的实例。</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" role="button">
+                        学习更多</a>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>欢迎登陆页面！</h1>
+                <p>这是一个超大屏幕（Jumbotron）的实例。</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" role="button">
+                        学习更多</a>
+                </p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>欢迎登陆页面！</h1>
+                <p>这是一个超大屏幕（Jumbotron）的实例。</p>
+                <p>
+                    <a class="btn btn-primary btn-lg" role="button">
+                        学习更多</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <!-- 内容结束 -->
+</body>
+</html>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+
+    <class name="com.dali.DripChain.entity.tbUser" table="tbuser" schema="db_dripchain">
+        <id name="id" column="ID">
+            <generator class="uuid"/>
+        </id>
+        <property name="username" column="USERNAME"/>
+        <property name="password" column="PASSWORD"/>
+    </class>
+</hibernate-mapping>

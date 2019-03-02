@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DripChain:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/src/com/dali/DripChain/controller/AndController.java" line="234" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="360c49d4-60ff-4398-ac90-b25dc6ad25f9" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_dripchain@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_dripchain@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="db_dripchain@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="db_dripchain: schema" type="c314c289:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="sessionFactory/Hibernate" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FUSProjectUsageTrigger">
+    <session id="1086070285">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.103" value="1" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.47" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="java" value="28" />
+          <entry key="jsp" value="8" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="JAVA" value="28" />
+          <entry key="JSP" value="8" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="3" />
+          <entry key="java" value="337" />
+          <entry key="jsp" value="617" />
+          <entry key="xml" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="337" />
+          <entry key="JSP" value="617" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="XML" value="7" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="549387056">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.0" value="2" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.33" value="1" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="class" value="1" />
+          <entry key="html" value="3" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="82" />
+          <entry key="js" value="1" />
+          <entry key="json" value="2" />
+          <entry key="jsp" value="9" />
+          <entry key="properties" value="3" />
+          <entry key="sql" value="1" />
+          <entry key="xml" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CLASS" value="1" />
+          <entry key="HTML" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="82" />
+          <entry key="JSON" value="2" />
+          <entry key="JSP" value="9" />
+          <entry key="JavaScript" value="1" />
+          <entry key="Properties" value="3" />
+          <entry key="Scratch" value="1" />
+          <entry key="XML" value="42" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="14" />
+          <entry key="java" value="1810" />
+          <entry key="jsp" value="191" />
+          <entry key="txt" value="14" />
+          <entry key="xml" value="217" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Hibernate QL" value="1" />
+          <entry key="JAVA" value="1809" />
+          <entry key="JSP" value="191" />
+          <entry key="PLAIN_TEXT" value="28" />
+          <entry key="XML" value="217" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.spring.core.usages.trigger">
+        <counts>
+          <entry key="fixes.SpringFacetInspection.AddFacetFix" value="1" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="-1555889">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="84" />
+          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.190" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="2" />
+          <entry key="project.open.time.26" value="4" />
+          <entry key="project.open.time.27" value="7" />
+          <entry key="project.open.time.28" value="5" />
+          <entry key="project.open.time.29" value="14" />
+          <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.30" value="8" />
+          <entry key="project.open.time.31" value="3" />
+          <entry key="project.open.time.32" value="9" />
+          <entry key="project.open.time.34" value="2" />
+          <entry key="project.open.time.35" value="1" />
+          <entry key="project.open.time.36" value="2" />
+          <entry key="project.open.time.37" value="1" />
+          <entry key="project.open.time.38" value="3" />
+          <entry key="project.open.time.39" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.40" value="4" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.43" value="2" />
+          <entry key="project.open.time.44" value="1" />
+          <entry key="project.open.time.45" value="2" />
+          <entry key="project.open.time.47" value="2" />
+          <entry key="project.open.time.48" value="3" />
+          <entry key="project.open.time.50" value="1" />
+          <entry key="project.open.time.51" value="1" />
+          <entry key="project.open.time.54" value="2" />
+          <entry key="project.open.time.56" value="1" />
+          <entry key="project.open.time.59" value="1" />
+          <entry key="project.open.time.70" value="1" />
+          <entry key="project.open.time.73" value="1" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="98" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="AddDeviceActivity" value="1" />
+          <entry key="Alarm" value="4" />
+          <entry key="AndController" value="1" />
+          <entry key="AndDao" value="1" />
+          <entry key="AndService" value="2" />
+          <entry key="BarChartItem" value="1" />
+          <entry key="DeviceDeviceslavePk" value="5" />
+          <entry key="VerifyCodeUtils" value="1" />
+          <entry key="class" value="5" />
+          <entry key="html" value="2" />
+          <entry key="java" value="144" />
+          <entry key="jsp" value="2" />
+          <entry key="properties" value="2" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="24" />
+          <entry key="zip" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="ARCHIVE" value="1" />
+          <entry key="CLASS" value="5" />
+          <entry key="HTML" value="2" />
+          <entry key="JAVA" value="144" />
+          <entry key="JSP" value="2" />
+          <entry key="Properties" value="2" />
+          <entry key="Scratch" value="2" />
+          <entry key="UML" value="16" />
+          <entry key="XML" value="24" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="9" />
+          <entry key="java" value="12576" />
+          <entry key="properties" value="14" />
+          <entry key="txt" value="13" />
+          <entry key="xml" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Hibernate QL" value="1" />
+          <entry key="JAVA" value="12575" />
+          <entry key="PLAIN_TEXT" value="22" />
+          <entry key="Properties" value="14" />
+          <entry key="XML" value="41" />
+        </counts>
+      </usages-collector>
+    </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/controller/AndController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Spring-MVC.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16">
+              <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-848" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/dao/AndDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/Announcement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-776">
+              <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/AlarmRecord.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="288">
+              <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/service/AndService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+              <folding>
+                <element signature="method#getDataPrepare#0;class#AndService#0" />
+                <element signature="e#1818#1819#0" expanded="true" />
+                <element signature="e#1864#1865#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/service/LoginService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/service/AndAlarmService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="111">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="hibernate-main-5.2" />
+        <option value="Jsp File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>dfb</find>
+      <find>*******</find>
+      <find>re</find>
+      <find>req</find>
+      <find>AE670179AE4E13000586C7E49317867B</find>
+      <find>resource</find>
+      <find>filter</find>
+      <find>sessioni</find>
+      <find>header</find>
+      <find>****</find>
+      <find>*****</find>
+      <find>x</find>
+      <find>add</find>
+      <find>User</find>
+      <find>andUserService</find>
+      <find>find</find>
+      <find>******</find>
+      <find>datastr</find>
+      <find>asciicode</find>
+      <find>alarms</find>
+      <find>123456</find>
+      <find>123112</find>
+      <find>sdevice</find>
+      <find>********</find>
+      <find>hello</find>
+      <find>mapper</find>
+      <find>doreg</find>
+      <find>getCompany</find>
+      <find>session</find>
+      <find>get</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>User</replace>
+      <replace>andUserService</replace>
+      <replace>Company</replace>
+      <replace>messyCode</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>G:\Java IDEA\DripChainWeb\src\com\dali\DripChain\entity</dir>
+      <dir>G:\Java IDEA\DripChain</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Outlet.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/views/test.jsp" />
+        <option value="$PROJECT_DIR$/web/test/test1.jsp" />
+        <option value="$PROJECT_DIR$/web/test/test.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Pollutionsource.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Sensor.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/User.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/web/views/static/test.jsp" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/controller/VerifyCodeUtils.java" />
+        <option value="$PROJECT_DIR$/web/views/static/login.jsp" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/web/views/login.jsp" />
+        <option value="$PROJECT_DIR$/src/DaoTest/tbUserTest.java" />
+        <option value="$PROJECT_DIR$/src/DaoTest/DaoTest.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/tbUser.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/tbUser.java" />
+        <option value="$PROJECT_DIR$/src/DaoTest/Main.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/dao/tbUserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/service/tbUserService.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/controller/AuthImage.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Userinfo.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/User.java" />
+        <option value="$PROJECT_DIR$/src/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/Spring-Hibernate.xml" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/dao/AlarmDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Company.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/service/AndAlarmService.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/dao/SimpleHibernateDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/dao/UserDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/dao/CompanyDao.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/controller/AndLoginController.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/service/AndUserService.java" />
+        <option value="$PROJECT_DIR$/src/Spring-MVC.xml" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/tools/TransEncoding.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Alarm.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceGroup.java" />
+        <option value="$PROJECT_DIR$/src/hibernate.cfg.xml" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceDeviceslavePk.hbm.xml" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceDeviceslavePk.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Device.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/DataPoint.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/entity/Announcement.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/service/AndService.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/controller/AndController.java" />
+        <option value="$PROJECT_DIR$/src/com/dali/DripChain/dao/AndDao.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="G:\IDEA Maven\repository" />
+        <option name="userSettingsFile" value="G:\IDEA Maven\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="794" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Class structureJava</id>
+          </State>
+          <State>
+            <id>Code maturityJava</id>
+          </State>
+          <State>
+            <id>Google Web Toolkit</id>
+          </State>
+          <State>
+            <id>JUnitJava</id>
+          </State>
+          <State>
+            <id>Java</id>
+          </State>
+          <State>
+            <id>Java 5Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 7Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java 8Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>Java language level migration aidsJava</id>
+          </State>
+          <State>
+            <id>JavadocJava</id>
+          </State>
+          <State>
+            <id>Numeric issuesJava</id>
+          </State>
+          <State>
+            <id>PerformanceJava</id>
+          </State>
+          <State>
+            <id>Spring</id>
+          </State>
+          <State>
+            <id>Spring AOPSpring</id>
+          </State>
+          <State>
+            <id>TestNGJava</id>
+          </State>
+          <State>
+            <id>Threading issuesJava</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Android</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="tools" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DripChain" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DripChain" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="JPA.DatabaseSchemaImportDialog" value="70cf565c-d2eb-4be7-86c7-051e87201868" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548681191429" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\Java IDEA\DripChain\web\views" />
+      <recent name="G:\Java IDEA\DripChainWeb\web" />
+    </key>
+    <key name="ImportMappingsDialog.RecentPackages">
+      <recent name="com.dali.DripChain.entity" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\Graduation Project\DripChain\out\artifacts\DripChain_war_exploded\views" />
+      <recent name="G:\Graduation Project\DripChain\src\com\dali\DripChain\service" />
+      <recent name="G:\Graduation Project\DripChain\src\com\dali\DripChain\dao" />
+      <recent name="G:\Graduation Project\DripChain\src\com\dali\DripChain\entity" />
+      <recent name="G:\Java IDEA\DripChain\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.tomcat-8.5.31">
+    <configuration name="DaoTest.add1" type="AndroidJUnit" factoryName="Android JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DripChain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DaoTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="DaoTest" />
+      <option name="MAIN_CLASS_NAME" value="DaoTest.DaoTest" />
+      <option name="METHOD_NAME" value="add1" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DaoTest.Main" />
+      <module name="DripChain" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DaoTest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="tomcat-8.5.31" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.31" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="COMMON_VM_ARGUMENTS" value="-Dfile.encoding=UTF-8" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATING_POLICY" value="redeploy-artifacts" />
+      <deployment>
+        <artifact name="DripChain:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/DripChain" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Default_(Template)_Project" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="50794" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="DripChain:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Tomcat Server.tomcat-8.5.31" />
+      <item itemvalue="Android JUnit.DaoTest.add1" />
+      <item itemvalue="Application.Main" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="360c49d4-60ff-4398-ac90-b25dc6ad25f9" name="Default Changelist" comment="" />
+      <created>1538984911092</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1538984911092</updated>
+      <workItem from="1538984919662" duration="3240000" />
+      <workItem from="1539005544236" duration="682000" />
+      <workItem from="1539008878794" duration="18721000" />
+      <workItem from="1539672198514" duration="3867000" />
+      <workItem from="1539867309345" duration="2072000" />
+      <workItem from="1540024269429" duration="50000" />
+      <workItem from="1540024323597" duration="14000" />
+      <workItem from="1540024362648" duration="21645000" />
+      <workItem from="1540175498491" duration="15835000" />
+      <workItem from="1540279890066" duration="21783000" />
+      <workItem from="1540370821110" duration="480000" />
+      <workItem from="1540371436686" duration="1481000" />
+      <workItem from="1540452079798" duration="7813000" />
+      <workItem from="1540466932314" duration="5541000" />
+      <workItem from="1540477235771" duration="6412000" />
+      <workItem from="1540520142286" duration="8476000" />
+      <workItem from="1540539519411" duration="1169000" />
+      <workItem from="1540546586184" duration="227000" />
+      <workItem from="1540556424120" duration="6594000" />
+      <workItem from="1540610138695" duration="8622000" />
+      <workItem from="1540639773653" duration="6527000" />
+      <workItem from="1540680894332" duration="609000" />
+      <workItem from="1540686266949" duration="224000" />
+      <workItem from="1540691629239" duration="1121000" />
+      <workItem from="1540702401872" duration="11914000" />
+      <workItem from="1540770408455" duration="3980000" />
+      <workItem from="1540814701645" duration="2760000" />
+      <workItem from="1540881597967" duration="3339000" />
+      <workItem from="1540911821214" duration="799000" />
+      <workItem from="1540945441143" duration="17843000" />
+      <workItem from="1540977490838" duration="2579000" />
+      <workItem from="1540988665871" duration="2096000" />
+      <workItem from="1540990872653" duration="2099000" />
+      <workItem from="1540993499651" duration="4792000" />
+      <workItem from="1541033275941" duration="2194000" />
+      <workItem from="1541039388351" duration="5138000" />
+      <workItem from="1541048943450" duration="2530000" />
+      <workItem from="1541053847257" duration="865000" />
+      <workItem from="1541070577409" duration="2965000" />
+      <workItem from="1541129408289" duration="1007000" />
+      <workItem from="1541202075385" duration="4642000" />
+      <workItem from="1541213229454" duration="151000" />
+      <workItem from="1541213442466" duration="6143000" />
+      <workItem from="1541400896232" duration="2369000" />
+      <workItem from="1541404581565" duration="4142000" />
+      <workItem from="1541422997592" duration="593000" />
+      <workItem from="1541473912065" duration="1125000" />
+      <workItem from="1541549819090" duration="6351000" />
+      <workItem from="1541564903070" duration="4360000" />
+      <workItem from="1541636327164" duration="1268000" />
+      <workItem from="1541900029578" duration="1292000" />
+      <workItem from="1541941608178" duration="1608000" />
+      <workItem from="1541949474399" duration="9772000" />
+      <workItem from="1542028182272" duration="1825000" />
+      <workItem from="1542197985066" duration="944000" />
+      <workItem from="1542257183365" duration="852000" />
+      <workItem from="1542284080593" duration="1540000" />
+      <workItem from="1542338515298" duration="919000" />
+      <workItem from="1542421294666" duration="1192000" />
+      <workItem from="1542427729715" duration="684000" />
+      <workItem from="1542502340177" duration="5350000" />
+      <workItem from="1542588286901" duration="2959000" />
+      <workItem from="1542622812885" duration="1599000" />
+      <workItem from="1542678845265" duration="717000" />
+      <workItem from="1542702874928" duration="237000" />
+      <workItem from="1542768801485" duration="595000" />
+      <workItem from="1542794204316" duration="4129000" />
+      <workItem from="1542883155917" duration="594000" />
+      <workItem from="1542975753439" duration="5000" />
+      <workItem from="1542975950593" duration="598000" />
+      <workItem from="1543014163846" duration="6668000" />
+      <workItem from="1543235438854" duration="1857000" />
+      <workItem from="1543237836539" duration="956000" />
+      <workItem from="1543241074055" duration="200000" />
+      <workItem from="1543242357956" duration="806000" />
+      <workItem from="1543280563724" duration="1594000" />
+      <workItem from="1543283175000" duration="441000" />
+      <workItem from="1543289749398" duration="1435000" />
+      <workItem from="1543381666994" duration="1296000" />
+      <workItem from="1543457090326" duration="167000" />
+      <workItem from="1543458089997" duration="4029000" />
+      <workItem from="1543492445647" duration="74000" />
+      <workItem from="1543539878892" duration="620000" />
+      <workItem from="1543554540759" duration="1074000" />
+      <workItem from="1543563111987" duration="790000" />
+      <workItem from="1543641563277" duration="470000" />
+      <workItem from="1543655207110" duration="1242000" />
+      <workItem from="1543658507340" duration="1974000" />
+      <workItem from="1543714457040" duration="629000" />
+      <workItem from="1543718301568" duration="3181000" />
+      <workItem from="1543802321209" duration="742000" />
+      <workItem from="1543816328221" duration="1302000" />
+      <workItem from="1543821257263" duration="3362000" />
+      <workItem from="1543837575127" duration="2339000" />
+      <workItem from="1543897846947" duration="2082000" />
+      <workItem from="1543908424613" duration="1036000" />
+      <workItem from="1543976694219" duration="12000" />
+      <workItem from="1543978298136" duration="1302000" />
+      <workItem from="1543997213159" duration="591000" />
+      <workItem from="1544002057783" duration="286000" />
+      <workItem from="1544014477388" duration="959000" />
+      <workItem from="1544094464352" duration="1260000" />
+      <workItem from="1544361786992" duration="444000" />
+      <workItem from="1544413005179" duration="1895000" />
+      <workItem from="1545804824870" duration="1900000" />
+      <workItem from="1545826456129" duration="4425000" />
+      <workItem from="1545985682812" duration="13000" />
+      <workItem from="1548680313587" duration="968000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="UserTest - 2018.10.08 at 16h 04m 55s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest - 2018.10.08 at 16h 10m 06s.xml">
+      <configuration name="UserTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.10.08 at 16h 10m 59s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.10.08 at 16h 11m 17s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UserTest_test - 2018.10.08 at 16h 22m 56s.xml">
+      <configuration name="UserTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_add1 - 2018.10.24 at 11h 44m 11s.xml">
+      <configuration name="DaoTest.add1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_add1 - 2018.10.24 at 11h 44m 47s.xml">
+      <configuration name="DaoTest.add1" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="DaoTest_add1 - 2018.10.24 at 11h 45m 14s.xml">
+      <configuration name="DaoTest.add1" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="333081000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6712095" visible="true" weight="0.1860817" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" sideWeight="0.5008518" side_tool="true" weight="0.21104388" />
+      <window_info id="Persistence" order="8" sideWeight="0.32879046" side_tool="true" visible="true" weight="0.1860817" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.0" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.78194207" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="5" weight="0.32879046" />
+      <window_info anchor="bottom" id="Application Servers" order="6" weight="0.32879046" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5030257" side_tool="true" weight="1.0" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.4969743" weight="0.20613287" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" weight="0.0" />
+      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="14" sideWeight="0.86611193" weight="0.80238503" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.24962178" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.32980332" />
+      <window_info anchor="right" id="Database" order="6" weight="0.19062027" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/service/tbUserService.java" />
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/lib/jackson-core-master.zip" />
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/dao/SimpleHibernateDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="95" column="36" selection-start-line="95" selection-start-column="29" selection-end-line="95" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/dao/UserDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1392">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jdk1.8.0_151/jre/lib/rt.jar!/sun/security/krb5/internal/TransitedEncoding.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1046">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/tools/TransEncoding.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="744">
+          <caret line="31" column="27" selection-start-line="31" selection-start-column="27" selection-end-line="31" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/dao/AlarmDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceDeviceslavePkEntity.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceDeviceslavePkEntityPK.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/AlarmContactPk.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceDeviceslavePk.hbm.xml" />
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceDeviceslavePkPK.java" />
+    <entry file="file://$PROJECT_DIR$/src/hibernate.cfg.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1512">
+          <caret line="63" column="62" selection-start-line="63" selection-start-column="62" selection-end-line="63" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/PageBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/Outlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spring-Hibernate.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="62" column="38" lean-forward="true" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/ContactGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/tbUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/Company.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceSlave.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-120">
+          <caret line="10" selection-start-line="10" selection-end-line="13" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DataPoint.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-458">
+          <caret line="20" column="48" lean-forward="true" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dali.DripChain.entity.VerifyCodeUtils">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dali.DripChain.entity.VerifyCodeUtils</OriginalElement>
+          <nodes>
+            <node x="" y="">com.dali.DripChain.entity.VerifyCodeUtils</node>
+            <node x="" y="">org.springframework.stereotype.Repository</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="182.0" y="241.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dali.DripChain.dao.AndDao">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dali.DripChain.dao.AndDao</OriginalElement>
+          <nodes>
+            <node x="" y="">org.springframework.dao.support.DaoSupport</node>
+            <node x="" y="">org.springframework.stereotype.Repository</node>
+            <node x="" y="">org.springframework.orm.hibernate5.support.HibernateDaoSupport</node>
+            <node x="" y="">com.dali.DripChain.dao.AndDao</node>
+            <node x="" y="">org.springframework.beans.factory.InitializingBean</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.1425120772946862" x="106.0" y="390.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dali.DripChain.service.AndService">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dali.DripChain.service.AndService</OriginalElement>
+          <nodes>
+            <node x="107.00000000000003" y="104.0">org.springframework.dao.support.DaoSupport</node>
+            <node x="629.0" y="265.0">com.dali.DripChain.controller.AndController</node>
+            <node x="87.5" y="853.0">org.springframework.stereotype.Service</node>
+            <node x="0.0" y="957.0">com.dali.DripChain.service.AndService</node>
+            <node x="691.5" y="0.0">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="935.5" y="80.5">org.springframework.stereotype.Controller</node>
+            <node x="442.0" y="372.5">org.springframework.stereotype.Repository</node>
+            <node x="0.0" y="302.0">org.springframework.orm.hibernate5.support.HibernateDaoSupport</node>
+            <node x="207.0" y="547.0">com.dali.DripChain.dao.AndDao</node>
+            <node x="107.00000000000003" y="0.0">org.springframework.beans.factory.InitializingBean</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="org.springframework.orm.hibernate5.support.HibernateDaoSupport" target="org.springframework.dao.support.DaoSupport">
+              <point x="0.0" y="-97.5" />
+              <point x="0.0" y="74.0" />
+            </edge>
+            <edge source="com.dali.DripChain.controller.AndController" target="org.springframework.stereotype.Controller">
+              <point x="138.0" y="-154.5" />
+              <point x="1043.0" y="240.0" />
+              <point x="1006.5" y="240.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="org.springframework.dao.support.DaoSupport" target="org.springframework.beans.factory.InitializingBean">
+              <point x="0.0" y="-74.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.dali.DripChain.controller.AndController" target="org.springframework.web.bind.annotation.RequestMapping">
+              <point x="-138.0" y="-154.5" />
+              <point x="767.0" y="240.0" />
+              <point x="803.5" y="240.0" />
+              <point x="0.0" y="107.5" />
+            </edge>
+            <edge source="com.dali.DripChain.dao.AndDao" target="org.springframework.orm.hibernate5.support.HibernateDaoSupport">
+              <point x="-77.5" y="-130.5" />
+              <point x="284.5" y="522.0" />
+              <point x="211.0" y="522.0" />
+              <point x="0.0" y="97.5" />
+            </edge>
+            <edge source="com.dali.DripChain.service.AndService" target="org.springframework.stereotype.Service">
+              <point x="0.0" y="-108.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+            <edge source="com.dali.DripChain.dao.AndDao" target="org.springframework.stereotype.Repository">
+              <point x="77.5" y="-130.5" />
+              <point x="439.5" y="522.0" />
+              <point x="513.0" y="522.0" />
+              <point x="0.0" y="27.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="792.0" y="246.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dali.DripChain.entity.Alarm">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dali.DripChain.entity.Alarm</OriginalElement>
+          <nodes>
+            <node x="" y="">com.dali.DripChain.entity.Company</node>
+            <node x="" y="">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="" y="">org.springframework.stereotype.Controller</node>
+            <node x="" y="">com.dali.DripChain.entity.Device</node>
+            <node x="" y="">com.dali.DripChain.entity.DataPoint</node>
+            <node x="" y="">org.springframework.beans.factory.InitializingBean</node>
+            <node x="" y="">com.dali.DripChain.entity.Contact</node>
+            <node x="" y="">com.dali.DripChain.entity.AlarmRecord</node>
+            <node x="" y="">org.springframework.dao.support.DaoSupport</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">org.springframework.stereotype.Service</node>
+            <node x="" y="">com.dali.DripChain.service.AndService</node>
+            <node x="" y="">org.springframework.stereotype.Repository</node>
+            <node x="" y="">com.dali.DripChain.dao.AndDao</node>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">com.dali.DripChain.entity.DeviceDeviceslavePk</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+            <node x="" y="">com.dali.DripChain.controller.AndController</node>
+            <node x="" y="">com.dali.DripChain.entity.User</node>
+            <node x="" y="">com.dali.DripChain.entity.UserInfo</node>
+            <node x="" y="">org.springframework.orm.hibernate5.support.HibernateDaoSupport</node>
+            <node x="" y="">com.dali.DripChain.entity.PageBean</node>
+            <node x="" y="">java.io.Serializable</node>
+            <node x="" y="">com.dali.DripChain.entity.PollutionSource</node>
+            <node x="" y="">com.dali.DripChain.entity.DataTemplate</node>
+            <node x="" y="">com.dali.DripChain.entity.Outlet</node>
+            <node x="" y="">com.dali.DripChain.entity.ContactGroup</node>
+            <node x="" y="">com.dali.DripChain.entity.Alarm</node>
+            <node x="" y="">com.dali.DripChain.entity.DeviceGroup</node>
+            <node x="" y="">com.dali.DripChain.entity.VerifyCodeUtils</node>
+            <node x="" y="">com.dali.DripChain.entity.DeviceSlave</node>
+            <node x="" y="">com.dali.DripChain.entity.tbUser</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8" x="430.0" y="562.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dali.DripChain.controller.AndController">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dali.DripChain.controller.AndController</OriginalElement>
+          <nodes>
+            <node x="" y="">com.dali.DripChain.controller.AndController</node>
+            <node x="" y="">org.springframework.web.bind.annotation.RequestMapping</node>
+            <node x="" y="">org.springframework.stereotype.Controller</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="137.0" y="126.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DataTemplate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/Alarm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="768">
+          <caret line="32" column="7" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/tools/PersistentCookieJar.java" />
+    <entry file="uml://JAVA/com.ct.app.tools.BarChartItem">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ct.app.tools.BarChartItem</OriginalElement>
+          <nodes>
+            <node x="" y="">com.dali.DripChain.tools.TransEncoding</node>
+            <node x="" y="">java.lang.SuppressWarnings</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="320.0" y="246.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.ct.app.dripchainapp.AddDeviceActivity">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.ct.app.dripchainapp.AddDeviceActivity</OriginalElement>
+          <nodes />
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.8131253678634491" x="889.0" y="307.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Constructors</Category>
+            <Category>Methods</Category>
+            <Category>Properties</Category>
+            <Category>Inner Classes</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://JAVA/com.dali.DripChain.entity.DeviceDeviceslavePk">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>JAVA</ID>
+          <OriginalElement>com.dali.DripChain.entity.DeviceDeviceslavePk</OriginalElement>
+          <nodes>
+            <node x="" y="">com.dali.DripChain.entity.DeviceDeviceslavePk</node>
+            <node x="" y="">javax.persistence.Entity</node>
+            <node x="" y="">com.dali.DripChain.entity.DataTemplate</node>
+            <node x="" y="">javax.persistence.Table</node>
+            <node x="" y="">com.dali.DripChain.entity.Company</node>
+            <node x="" y="">com.dali.DripChain.entity.Alarm</node>
+            <node x="" y="">com.dali.DripChain.entity.DeviceGroup</node>
+            <node x="" y="">com.dali.DripChain.entity.DeviceSlave</node>
+            <node x="" y="">com.dali.DripChain.entity.Device</node>
+            <node x="" y="">com.dali.DripChain.entity.DataPoint</node>
+            <node x="" y="">java.io.Serializable</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="1.0" x="528.0" y="246.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/DeviceDeviceslavePk.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/70cf565c-d2eb-4be7-86c7-051e87201868/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/Device.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3474">
+          <caret line="47" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-orm-5.0.8.RELEASE.jar!/org/springframework/orm/hibernate5/HibernateTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4154">
+          <caret line="366" column="16" selection-start-line="366" selection-start-column="16" selection-end-line="366" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/VerifyCodeUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/Announcement.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-776">
+          <caret line="31" column="10" lean-forward="true" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/entity/AlarmRecord.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/service/AndAlarmService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="6" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/service/AndService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="19" column="17" lean-forward="true" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="17" />
+          <folding>
+            <element signature="method#getDataPrepare#0;class#AndService#0" />
+            <element signature="e#1818#1819#0" expanded="true" />
+            <element signature="e#1864#1865#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/jdk1.8.0_151/src.zip!/javax/annotation/Resource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="27" column="7" lean-forward="true" selection-start-line="27" selection-start-column="7" selection-end-line="27" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-beans-5.0.8.RELEASE.jar!/org/springframework/beans/factory/annotation/Autowired.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/dao/AndDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-848" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Spring-MVC.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="18" column="78" selection-start-line="18" selection-start-column="78" selection-end-line="18" selection-end-column="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/dali/DripChain/controller/AndController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="47" column="33" selection-start-line="47" selection-start-column="33" selection-end-line="47" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="30" column="26" selection-start-line="30" selection-start-column="26" selection-end-line="30" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArquillianSettingsConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>DripChain:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Hibernate (DripChain)|Hibernate</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DripChain</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

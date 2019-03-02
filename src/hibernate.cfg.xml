@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+    	<!-- 第一部分： 配置数据库信息 必须的******************************************* --> 
+    	<!--DB连接五大要素 -->
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/db_dripchain</property>
+        <!-- Disable the BeanValidation -->
+		<property name="javax.persistence.validation.mode">none</property>
+		<!-- 第二部分： 配置hibernate信息  可选的****************************************-->
+		<!-- 配置数据库方言
+			在mysql里面实现分页 关键字 limit，只能使用mysql里面
+			在oracle数据库，实现分页rownum
+			让hibernate框架识别不同数据库的自己特有的语句
+		 -->
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+
+		<!-- 自动建表 里面的值也可以是create,但是每次都会新建一个表，影响效率，update在原有的表上面添加信息 -->
+		<property name="hibernate.hbm2ddl.auto">update</property>
+
+		<!-- 显示sql（便于调试） -->
+		<property name="hibernate.show_sql">true</property>
+		<!-- 格式化sql（便于查看） -->
+		<property name="hibernate.format_sql">true</property>
+		
+		<!-- 事务配置 -->
+		<property name="hibernate.current_session_context_class">thread</property>
+        <mapping resource="com/dali/DripChain/entity/Alarm.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Alarm" />
+        <mapping resource="com/dali/DripChain/entity/AlarmAlarmmodesListEntity.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.AlarmAlarmmodesListEntity" />
+        <mapping resource="com/dali/DripChain/entity/AlarmContactPkEntity.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.AlarmContactPkEntity" />
+        <mapping resource="com/dali/DripChain/entity/DeviceDeviceslavePkEntity.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.DeviceDeviceslavePkEntity" />
+        <mapping resource="com/dali/DripChain/entity/Alarmrecord.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Alarmrecord" />
+        <mapping resource="com/dali/DripChain/entity/Company.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Company" />
+        <mapping resource="com/dali/DripChain/entity/Contact.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Contact" />
+        <mapping resource="com/dali/DripChain/entity/Contactgroup.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Contactgroup" />
+        <mapping resource="com/dali/DripChain/entity/Datapoint.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Datapoint" />
+        <mapping resource="com/dali/DripChain/entity/Datatemplate.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Datatemplate" />
+        <mapping resource="com/dali/DripChain/entity/Device.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Device" />
+        <mapping resource="com/dali/DripChain/entity/Devicegroup.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Devicegroup" />
+        <mapping resource="com/dali/DripChain/entity/Deviceslave.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Deviceslave" />
+        <mapping resource="com/dali/DripChain/entity/Outlet.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Outlet" />
+        <mapping resource="com/dali/DripChain/entity/Pollutionsource.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Pollutionsource" />
+        <mapping resource="com/dali/DripChain/entity/User.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.User" />
+        <mapping resource="com/dali/DripChain/entity/Userinfo.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Userinfo" />
+        <mapping class="com.dali.DripChain.entity.DeviceDeviceslavePk" />
+        <mapping resource="com/dali/DripChain/entity/DeviceDeviceslavePk.hbm.xml" />
+        <mapping class="com.dali.DripChain.entity.Announcement" />
+        <mapping resource="com/dali/DripChain/entity/Announcement.hbm.xml" />
+        <!-- 第三部分：导入映射文件 -->
+		<!-- <mapping resource="com/dali/DripChain/entity/User.hbm.xml" /> -->
+    </session-factory>
+</hibernate-configuration>
